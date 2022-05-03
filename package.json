@@ -1,0 +1,26 @@
+{
+  "name": "helloworld2",
+  "version": "1.0.0",
+  "description": "\\",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gseiten/electron-hello-world-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gseiten/electron-hello-world-2/issues"
+  },
+  "homepage": "https://github.com/gseiten/electron-hello-world-2#readme",
+  "devDependencies": {
+    "electron": "^18.1.0",
+    "electron-builder": "^23.0.3"
+  },
+  "dependencies": {
+    "electron-updater": "^5.0.1"
+  }
+}
