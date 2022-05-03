@@ -4,11 +4,13 @@
   "description": "\\",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder build --publish never",
+    "deploy": "electron-builder build --publish always"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gseiten/electron-hello-world-2.git"
+    "url": "https://github.com/gseiten/electron-hello-world-2.git"
   },
   "author": "",
   "license": "ISC",
