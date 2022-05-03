@@ -1,6 +1,6 @@
 {
   "name": "helloworld2",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "\\",
   "main": "main.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/gseiten/electron-hello-world-2#readme",
   "devDependencies": {
     "electron": "^18.1.0",
-    "electron-builder": "^23.0.3"
+    "electron-builder": "^21.2.0"
   },
   "dependencies": {
     "electron-updater": "^5.0.1"
