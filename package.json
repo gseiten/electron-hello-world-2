@@ -1,12 +1,12 @@
 {
   "name": "helloworld2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "\\",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder build --publish never",
-    "deploy": "electron-builder build --publish always"
+    "build": "electron-builder build --linux --publish never",
+    "deploy": "electron-builder build --linux --publish always"
   },
   "repository": {
     "type": "git",
